@@ -1,0 +1,227 @@
+*{margin:0;padding:0;}
+aside,section,article,p,div,span,figure,figcaption,img,input,form,html, footer, header,nav, p, ul, li{margin:0;padding:0;}
+ul{list-style:none;}
+.clear{clear:both;height:0;}
+:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus{outline:none;}
+ul:after{clear:both;display:block;content:"";}
+html{font-smooth:always;}
+select{-webkit-appearance:none;}
+img{max-width:100%;border:none;vertical-align:bottom;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;  -o-user-select:none;}
+button, input[type="submit"]{-webkit-appearance:none;}
+body
+{
+  background: #f5f5f5;
+  color: #000;
+  font-size:16px;
+  line-height:24px;
+  overflow-x:hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+.header img {
+    height: 90px;
+    margin: 10px 0;
+}
+.loader_outer p {
+    position: relative;
+    top: 50%;
+    color: #fff;
+}
+.loader_outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: inline-block;
+  position: relative;
+top: 50%;
+margin-top: -60px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.header {
+    background: #1a7c9c;
+    color: #fff;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: 20px;
+margin-top: 22px;
+}
+.header ul li a{
+    color:#fff;
+}
+.header ul li a:hover{
+    color:#000;
+}
+.form-control
+{
+    border-color: #dfdfdf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    height: auto;
+    box-shadow: none;
+    color:#000;
+}
+.custom_select
+{
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: 0 10px;
+    background:#fff;
+    position: relative;
+}
+.custom_select select
+{
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    height: 45px;
+}
+.custom_select:after
+{
+    content: "\f107";
+    font-family: fontawesome;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    line-height: 45px;
+    width: 34px;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.orange_btn
+{
+    background: #248fb2;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px;
+    margin-top: 30px;
+}
+.orange_btn:hover, .orange_btn:focus
+{
+    background: #1a7c9c;
+    color:#fff;
+}
+.upload_box
+{
+    background: #f1f1f1;
+    display: inline-block;
+    vertical-align: middle;
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.upload_box input
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+.camera_icon
+{
+    margin-top: 100px;
+}
+.form_outer
+{
+    padding: 35px 0 50px;
+}
+.form_outer h3
+{
+    font-weight: 600;
+}
+.form_outer .orange_btn
+{
+  margin-top: 20px;
+}
+.white_box
+{
+	background:#fff;
+	padding:25px 25px 60px 25px;
+	margin:40px auto 25px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	max-width:1000px;
+
+}
+.white_box form label {
+    font-size: 12px;
+    font-weight: 500;
+}
+.form-control + .form-control
+{
+    margin-top: 10px;
+}
+.account_info ul li label
+{
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.account_info ul li
+{
+    margin-bottom: 15px;
+}
+.box_balance
+{
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+.box_balance h3
+{
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.box_balance h3 img
+{
+    height: 30px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.box_balance p
+{
+    padding: 10px;
+}
+.balance_area h4 {
+    margin-bottom: 20px;
+}
+.white_box form.text-center p
+{
+    font-size: 14px;
+    margin-top: 15px;
+}
+

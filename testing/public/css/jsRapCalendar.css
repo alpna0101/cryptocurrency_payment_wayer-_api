@@ -1,0 +1,68 @@
+.rapCalendar table {
+    margin: 0px auto;
+    border-spacing: 0px;
+    border-collapse: separate;
+    max-width: 450px;
+    width: 100%;
+}
+.rapCalendar caption {
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.rapCalendar th {
+    font-weight: 400;
+	text-align:center;
+}
+.rapCalendar thead {
+    color: #6e6e6e;
+    font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center!important;
+}
+.rapCalendar tbody td {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 22px;
+}
+.rapCalendar .calDisable, .rapCalendar tbody td {
+    color: #6e6e6e;
+    font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+}
+.rapCalendar .calSelected {
+    border: 2px solid #1b942f;
+    text-shadow: 0px 0px 4px black;
+    background-color: #000000;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+}
+.rapCalendar .larr{
+	color:#e9b125;
+	cursor:pointer;
+	float:left;
+}
+.rapCalendar .larr:before{
+	content:"<";
+}
+.rapCalendar .larr:hover{
+	color:white;
+}
+.rapCalendar .rarr{
+	color:#e9b125;
+	cursor:pointer;
+	float:right;
+}
+.rapCalendar .rarr:before{
+	content:">";
+}
+.rapCalendar .rarr:hover{
+	color:white;
+}
